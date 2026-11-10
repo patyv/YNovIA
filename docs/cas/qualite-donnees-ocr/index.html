@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vérifier des données clients avec l’OCR | YnovIA</title>
+<meta name="description" content="Une démarche de cadrage pour compléter des données clients à partir de justificatifs, avec traçabilité et validation humaine.">
+<link rel="canonical" href="https://patyv.github.io/YNovIA/cas/qualite-donnees-ocr/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vérifier des données clients avec l’OCR | YnovIA">
+<meta property="og:description" content="Une démarche de cadrage pour compléter des données clients à partir de justificatifs, avec traçabilité et validation humaine.">
+<meta property="og:url" content="https://patyv.github.io/YNovIA/cas/qualite-donnees-ocr/">
+<link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+<link rel="stylesheet" href="../../style.css">
+<style>
+.detail {max-width: 870px; margin-inline: auto; padding-block: 70px 80px;}
+.detail h1 {font-size: clamp(2.3rem, 5.2vw, 4.1rem); line-height: 1.05; margin: 16px 0 22px;}
+.detail h2 {font-size: clamp(1.4rem, 3vw, 2rem); margin: 34px 0 10px; line-height: 1.16;}
+.detail p, .detail li {line-height: 1.65; margin-block: 8px;}
+.detail ul, .detail ol {padding-inline-start: 1.4em;}
+.detail .intro {font-size: 1.18rem; margin-bottom: 28px;}
+.detail a:not(.button) {text-decoration: underline; text-underline-offset: 3px;}
+.detail aside {margin-top: 36px; padding-top: 20px; border-top: 1px solid #d3d5cd;}
+.detail .button {margin-top: 12px;}
+.detail-nav {display: flex; flex-wrap: wrap; gap: 12px 22px; margin-bottom: 40px;}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<main id="main" class="wrap detail">
+<nav class="detail-nav" aria-label="Navigation principale"><a href="../../">YnovIA · Yvonne Dalle</a><a href="../../agents-ia-pme/">Conseil en agents IA</a><a href="../../cas/qualite-donnees-ocr/">Cas pratique OCR</a><a href="../../le-declic-ia/evaluer-assistant-documentaire/">Le déclic IA</a></nav>
+<header><p class="eyebrow">CAS PRATIQUE · QUALITÉ DES DONNÉES</p><h1>Vérifier des données clients avec l’OCR</h1><p class="intro">L’OCR permet d’extraire une information depuis un justificatif. Pour compléter une donnée client, le système peut proposer une valeur et indiquer sa provenance. Une personne examine les dossiers où la lecture, le document ou la correspondance restent incertains.</p></header>
+
+<h2>Le besoin métier</h2>
+<p>Cette étude de cas présente un cadrage de preuve de concept issu du parcours de Yvonne Dalle en assurance et mutualité. L’objectif était d’évaluer la faisabilité d’une vérification documentaire pour des informations d’identité manquantes ou suspectes.</p>
+<h2>La démarche envisagée</h2>
+<ol><li>Détecter le champ incomplet ou incohérent dans le dossier.</li><li>Retrouver un justificatif autorisé associé au bon dossier.</li><li>Extraire le champ avec l’OCR et conserver une référence à sa source.</li><li>Proposer une valeur et signaler les incohérences ou les doutes.</li><li>Faire valider les dossiers incertains avant toute mise à jour.</li></ol>
+<h2>Exemple fictif</h2>
+<p>Un dossier ne contient pas de nom de naissance. Le justificatif contient deux noms et l’un est partiellement illisible. Le système transmet le dossier à un gestionnaire en indiquant les valeurs candidates, leur provenance et la raison du doute. Le gestionnaire vérifie le document avant de valider ou de rejeter la proposition.</p>
+<h2>Indicateurs proposés pour le pilote</h2>
+<ul><li>Part des dossiers pour lesquels une donnée peut être complétée.</li><li>Taux d’erreur sur les valeurs acceptées, contrôlé sur un échantillon annoté.</li><li>Part des dossiers envoyés en revue humaine et temps total par dossier.</li></ul>
+<p>Ces mesures sont des critères d’évaluation du pilote. Elles restent à renseigner sur les données du test.</p>
+<p>Voir l’offre de <a href="../../agents-ia-pme/">conseil en agents IA pour PME</a>.</p>
+<aside><p>Yvonne Dalle · Docteure en intelligence artificielle · Île-de-France et à distance</p><a class="button primary" href="../../#contact">Échanger sur votre projet ↗</a></aside>
+</main>
+</body>
+</html>
