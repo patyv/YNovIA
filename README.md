@@ -1,3 +1,18 @@
+# YnovIA — Conseil en Data Science et agents IA
+
+YnovIA est l’activité de conseil de **Yvonne Dalle**, docteure en intelligence artificielle. Elle accompagne les PME, assureurs et mutuelles dans le cadrage et l’évaluation de projets de Data Science, d’agents IA et de qualité des données, en Île-de-France et à distance.
+
+- [Site de YnovIA](https://patyv.github.io/YNovIA/)
+- [Conseil en agents IA pour PME](https://patyv.github.io/YNovIA/agents-ia-pme/)
+- [Cas pratique sur la vérification de données clients par OCR](https://patyv.github.io/YNovIA/cas/qualite-donnees-ocr/)
+- [Le déclic IA · Évaluer un assistant documentaire](https://patyv.github.io/YNovIA/le-declic-ia/evaluer-assistant-documentaire/)
+
+Le site public est publié avec GitHub Pages à partir du dossier `docs/`.
+
+---
+
+## Documentation du modèle HugoBlox d’origine
+
 # [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
 
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=preview)
